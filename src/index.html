@@ -3,12 +3,50 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Page title</title>
-    <link rel="stylesheet" href="./sass/index.scss" />
+    <title>Flover lover</title>
+    <!-- <link rel="stylesheet" href="./sass/index.scss" /> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans&family=Libre+Baskerville:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./css/styles.css" />
     <script type="module" src="./index.js"></script>
   </head>
   <body>
-    <!-- ❗️❗️ Add partials like so for every page -->
-    <include src="./partials/example.html"></include>
+    <header class="header">
+      <div class="container">
+        <a href="./index.html" class="link logo-link">FloverLover</a>
+
+        <ul class="link-list list">
+          <a class="link-list-item link" href="">About us</a>
+          <a class="link-list-item link" href="">Price</a>
+          <a class="link-list-item link" href="">Catalogue</a>
+          <a class="link-list-item link" href="">Delivery</a>
+          <a class="link-list-item link" href="">Reviews</a>
+          <a class="link-list-item link" href="">Form</a>
+          <a class="link-list-item link" href="">Contacts</a>
+        </ul>
+
+        <ul class="list icon-list">
+          <img src="./images/header-icon-profile-2x.png" alt="Account icon" />
+          <img src="./images/header-basket-profile-2x.png" alt="Basket" />
+        </ul>
+      </div>
+    </header>
+    <main>
+      <section class="hero">
+        <div class="container">
+          <h1 class="hero-title">Flover Lover</h1>
+          <p class="hero-dcr">
+            This is the house of flora. There are thousands of kinds of flowers
+            for any event. Just swipe and see.
+          </p>
+          <button type="button" class="hero-btn">Order a bouquet</button>
+        </div>
+      </section>
+    </main>
   </body>
 </html>
