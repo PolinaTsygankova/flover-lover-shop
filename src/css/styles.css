@@ -65,12 +65,12 @@ ol {
 /* ---------------------------HEADER--------------------------- */
 
 .header {
-  /* position: absolute;
+  position: absolute;
   top: 0;
   right: 178;
   margin: 0;
 
-  width: 100%; */
+  width: 100%;
   z-index: 1;
   background-color: var(--header-bckg-color);
   height: 73px;
