@@ -54,6 +54,10 @@ ol {
   list-style: none;
 }
 
+button {
+  cursor: pointer;
+}
+
 .container {
   width: 1200px;
   padding-left: 15px;
@@ -67,10 +71,10 @@ ol {
 .header {
   position: absolute;
   top: 0;
-  right: 178;
+  right: 120;
   margin: 0;
 
-  width: 100%;
+  width: 1472px;
   z-index: 1;
   background-color: var(--header-bckg-color);
   height: 73px;
