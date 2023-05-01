@@ -96,7 +96,7 @@ button {
   display: flex;
 }
 
-.logo-link {
+.header-logo-link {
   color: var(--main-text-color);
 
   margin-right: 40px;
@@ -109,12 +109,12 @@ button {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.logo-link:hover,
-.logo-link:focus {
+.header-logo-link:hover,
+.header-logo-link:focus {
   color: var(--hover-color);
 }
 
-.logo-link:active {
+.header-logo-link:active {
   color: var(--active-color);
 }
 
@@ -124,7 +124,7 @@ button {
   margin-right: auto;
 }
 
-.link-list-item {
+.link-item-link {
   color: var(--main-text-color);
 
   font-family: 'DM Sans';
@@ -134,16 +134,16 @@ button {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.link-list-item:hover,
-.link-list-item:focus {
+.link-item-link:hover,
+.link-item-linkm:focus {
   color: var(--hover-color);
 }
 
-.link-list-item:active {
+.link-item-link:active {
   color: var(--active-color);
 }
 
-.link-list-item:not(:last-child) {
+.header-item:not(:last-child) {
   margin-right: 32px;
 }
 
