@@ -19,7 +19,7 @@ body {
   font-weight: 400;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #fafafa;
+  background-color: var(--main-bck-color);
   padding: 0;
   margin: 0;
   /* width: 1460px; */
@@ -328,4 +328,142 @@ button {
 
   font-size: 32px;
   line-height: 1.3;
+}
+
+/* ---------------------------CHOOSE--------------------------- */
+
+.choose-section {
+  background-color: var(--main-text-color);
+  padding: 80px 0px;
+  margin-bottom: 120px;
+}
+
+.choose-title {
+  text-align: center;
+  margin-bottom: 80px;
+
+  color: var(--main-bck-color);
+
+  font-family: 'Libre Baskerville';
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 1.2;
+}
+
+.choose-list {
+  text-align: center;
+  display: flex;
+  /* align-items: center; */
+  justify-content: space-between;
+}
+
+.choose-icon {
+  fill: var(--main-bck-color);
+  width: 80px;
+  height: 80px;
+  margin-bottom: 24px;
+}
+
+.choose-item-title {
+  font-size: 32px;
+  line-height: 1.3;
+  font-weight: 400;
+  margin-bottom: 24px;
+
+  color: var(--main-bck-color);
+}
+
+.choose-dcr {
+  display: inline-block;
+  width: 255px;
+  font-size: 20px;
+  line-height: 150%;
+
+  color: var(--main-bck-color);
+}
+
+/* ---------------------------PRISE--------------------------- */
+.prise-section {
+  background-color: var(--main-text-color);
+  padding: 70px 0px;
+  margin-bottom: 120px;
+}
+
+.prise-title {
+  text-align: center;
+  margin-bottom: 80px;
+
+  color: var(--main-bck-color);
+
+  font-family: 'Libre Baskerville';
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 1.2;
+}
+
+.prise-list {
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 80px;
+}
+
+.prise-list img {
+  margin-bottom: 24px;
+}
+
+.prise-item {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.price-item-color {
+  font-size: 24px;
+  line-height: 1.3;
+
+  color: var(--main-bck-color);
+}
+
+.price-item-dcr {
+  font-size: 24px;
+  line-height: 1.3;
+
+  color: var(--main-bck-color);
+}
+
+.prise-text-wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 255px;
+}
+
+.prise-item::after {
+  content: '';
+  width: 100%;
+  height: 1px;
+  position: absolute;
+  bottom: -7;
+  left: 0;
+  background-color: var(--main-bck-color);
+}
+
+.prise-arrow-icon {
+  width: 160px;
+  height: 15px;
+
+  fill: var(--main-bck-color);
+}
+
+.prise-arrow-icon:last-child {
+  transform: rotate(180deg);
+}
+
+.prise-arrow-icon:not(:last-child) {
+  margin-right: 96px;
+}
+
+.prise-arrows-wrapper {
+  display: flex;
+  justify-content: center;
 }
