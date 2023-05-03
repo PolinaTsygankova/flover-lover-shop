@@ -536,9 +536,6 @@ button {
   background-color: var(--text-color);
 }
 
-.catalogue-price {
-}
-
 .catalogue-wrapper-for-price-icon {
   display: flex;
   justify-content: space-between;
@@ -681,9 +678,30 @@ button {
 
 .feedback-list {
   display: flex;
+  margin-bottom: 80px;
 }
 
 .feedback-user {
   display: block;
   margin-top: 24px;
+}
+
+.catalogue-arrows-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.feedback-arrow-icon {
+  width: 160px;
+  height: 15px;
+
+  fill: var(--text-color);
+}
+
+.feedback-arrow-icon:not(:last-child) {
+  margin-right: 96px;
+}
+
+.feedback-arrow-icon:last-child {
+  transform: rotate(180deg);
 }
