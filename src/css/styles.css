@@ -645,10 +645,19 @@ button {
   color: var(--text-color);
 }
 .feedback-item {
+  display: flex;
+  flex-direction: column;
   padding: 32px 24px;
+  width: 350px;
+  height: 380px;
 
   background-color: var(--main-text-color);
 }
+
+.feedback-item:not(:last-child) {
+  margin-right: 30px;
+}
+
 .feedback-img-wrapper {
   margin-bottom: 32px;
   display: flex;
@@ -658,6 +667,7 @@ button {
 
 .feedback-dcr,
 .feedback-user {
+  /* width: 302px; */
   font-size: 18px;
   line-height: 1.2;
 
@@ -665,7 +675,8 @@ button {
 }
 
 .feedback-dcr {
-  margin-bottom: 24px;
+  width: 302px;
+  margin-bottom: auto;
 }
 
 .feedback-list {
@@ -674,4 +685,5 @@ button {
 
 .feedback-user {
   display: block;
+  margin-top: 24px;
 }
