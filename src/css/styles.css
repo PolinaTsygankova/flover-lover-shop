@@ -265,6 +265,7 @@ button {
 }
 
 .about-section > .container {
+  padding-left: 70px;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
